@@ -1,0 +1,13 @@
+diff --git a/daemon/chargethresholdhelper_linux.cpp b/daemon/chargethresholdhelper_linux.cpp
+index 36a30bb..46e9006 100644
+--- a/daemon/chargethresholdhelper_linux.cpp
++++ b/daemon/chargethresholdhelper_linux.cpp
+@@ -19,7 +19,7 @@
+ using namespace Qt::StringLiterals;
+ 
+ static const QString s_powerSupplySysFsPath = QStringLiteral("/sys/class/power_supply");
+-static const QString s_conservationModeSysFsPath = QStringLiteral("/sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode");
++static const QString s_conservationModeSysFsPath = QStringLiteral("/sys/bus/wmi/drivers/acer-wmi-ext/health_mode");
+ 
+ static const QString s_chargeStartThreshold = QStringLiteral("charge_control_start_threshold");
+ static const QString s_chargeEndThreshold = QStringLiteral("charge_control_end_threshold");
