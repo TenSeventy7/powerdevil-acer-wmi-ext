@@ -1,5 +1,5 @@
 Name:    powerdevil
-Version: 6.4.3
+Version: 6.4.4
 Release: 2.1%{?dist}.acer
 Summary: Manages the power consumption settings of a Plasma Shell
 
